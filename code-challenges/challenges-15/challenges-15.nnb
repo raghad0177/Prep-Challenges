@@ -45,7 +45,7 @@
         {
             "language": "javascript",
             "source": [
-                "function howManyGames(p, d, m, s) {\n    let totalCost = p;\n    let count = 0;\n    while(totalCost <= s){\n      p = p - d;\n      if(p <= m){\n        totalCost = totalCost + m;\n        count++;\n      }else{\n        totalCost = totalCost + p;\n        count++;\n      }\n    }\n    return count\n  }\n  \n"
+                ""
             ],
             "outputs": []
         },
