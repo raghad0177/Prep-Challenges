@@ -24,7 +24,7 @@
         {
             "language": "javascript",
             "source": [
-                "function equalizeArray(arr) {\n    let count=0;\n    let maxcount = 0; \n    let arr2=[];\n    let element_having_max_freq; \n    for (let i = 0; i < arr.length; i++) { \n        let count = 0; \n        for (let j = 0; j < arr.length; j++) { \n            if (arr[i] == arr[j]) \n                count++; \n        } \n \n        if (count > maxcount) { \n            maxcount = count; \n            element_having_max_freq = arr[i]; \n        } \n    } \n for (let i =0; i<arr.length ; i++){\n     if (arr[i] !== element_having_max_freq){\n         arr2.push(arr[i]);\n       \n     }\n   \n } return arr2.length;\n}"
+                "function equalizeArray(arr) {\n    let count=0;\n    let maxcount = 0; \n    let arr2=[];\n    let element_having_max_freq; \n    for (let i = 0; i < arr.length; i++) { \n        let count = 0; \n        for (let j = 0; j < arr.length; j++) { \n            if (arr[i] == arr[j]) \n                count++; \n        } \n \n        if (count > maxcount) {  \n            maxcount = count; \n            element_having_max_freq = arr[i]; \n        } \n    } \n for (let i =0; i<arr.length ; i++){\n     if (arr[i] !== element_having_max_freq){ \n         arr2.push(arr[i]);\n       \n     }\n   \n } return arr2.length;\n}"
             ],
             "outputs": []
         },
