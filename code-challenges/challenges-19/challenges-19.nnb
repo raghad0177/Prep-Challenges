@@ -24,7 +24,7 @@
         {
             "language": "javascript",
             "source": [
-                ""
+                "function appendAndDelete(s, t, k) {\n    let count = 0;\n    for(let i = 0; i < s.length && i < t.length; i++) {\n        if(s[i] != t[i]) {\n            break;\n        }\n        count ++;\n    }\n\n    let ak = s.length + t.length - 2 * count;\n    if((k - ak) >= 0 && ((k - ak) % 2 == 0 || k > s.length + t.length)) {\n        return 'Yes';\n    }\n    return 'No';\n}"
             ],
             "outputs": []
         },
